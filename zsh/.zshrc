@@ -22,3 +22,4 @@ bindkey "^n" history-beginning-search-forward-end
 which nvim > /dev/null && alias vim='nvim'
 
 . /usr/local/opt/asdf/libexec/asdf.sh
+[[ /Users/asanumatakashi/.asdf/shims/kubectl ]] && source <(kubectl completion zsh)
