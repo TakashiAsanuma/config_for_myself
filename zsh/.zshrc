@@ -20,3 +20,5 @@ bindkey "^p" history-beginning-search-backward-end
 bindkey "^n" history-beginning-search-forward-end
 
 which nvim > /dev/null && alias vim='nvim'
+
+. /usr/local/opt/asdf/libexec/asdf.sh
