@@ -1,0 +1,13 @@
+### Install to My Mac
+- prezto
+- neovim
+- byobu
+- git
+- wget
+- docker
+- docker-compose
+- dive
+- asdf
+- go
+- ruby
+- kubectl
