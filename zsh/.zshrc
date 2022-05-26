@@ -23,3 +23,6 @@ which nvim > /dev/null && alias vim='nvim'
 
 . /usr/local/opt/asdf/libexec/asdf.sh
 [[ /Users/asanumatakashi/.asdf/shims/kubectl ]] && source <(kubectl completion zsh)
+
+source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+  PS1='$(kube_ps1)'$PS1

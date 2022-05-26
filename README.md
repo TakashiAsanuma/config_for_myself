@@ -11,3 +11,5 @@
 - go
 - ruby
 - kubectl
+- kube-ps1
+- kubectx
