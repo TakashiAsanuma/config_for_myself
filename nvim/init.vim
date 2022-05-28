@@ -49,17 +49,6 @@ set pastetoggle=<F5>
 set mouse=a
 
 "#######################
-" FOR GO
-"#######################
-filetype off
-filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax on
-exe "set rtp+=".globpath($GOPATH, "src/github.com/nsf/gocode/vim")
-set completeopt=menu,preview
-
-"#######################
 " 検索系
 "#######################
 set ignorecase "検索文字列が小文字の場合は大文字小文字を区別なく検索する

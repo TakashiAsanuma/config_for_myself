@@ -17,9 +17,6 @@ repo = 'jacoborus/tender.vim'
 repo = 'cocopon/iceberg.vim'
 
 [[plugins]]
-repo = 'fatih/vim-go'
-
-[[plugins]]
 repo = 'lambdalisue/fern.vim'
 
 [[plugins]]
