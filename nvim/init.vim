@@ -125,3 +125,5 @@ set t_Co=256
 set termguicolors
 " 背景色
 set background=dark
+" ダブルクォート表示
+set conceallevel=0
