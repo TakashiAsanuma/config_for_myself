@@ -127,3 +127,9 @@ set termguicolors
 set background=dark
 " ダブルクォート表示
 set conceallevel=0
+
+" 関数ジャンプ
+set tags=./tags;
+
+" ファイルに書き込む際にタグ生成
+let g:auto_ctags = 1

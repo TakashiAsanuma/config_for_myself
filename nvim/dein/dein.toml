@@ -21,3 +21,6 @@ repo = 'lambdalisue/fern-git-status.vim'
 
 [[plugins]]
 repo = 'aereal/vim-colors-japanesque'
+
+[[plugins]]
+repo = 'soramugi/auto-ctags.vim'
