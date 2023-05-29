@@ -43,4 +43,4 @@ $ sudo chmod a+x /usr/local/lib/docker/cli-plugins/docker-compose
 $ docker compose version
 Docker Compose version v2.16.0
 ```
-
+### Rocky8へRustをInstall
