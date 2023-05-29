@@ -28,3 +28,18 @@
 - パッケージアップデートを終えたら念のためrebootしておく
 - sudo yum install gcc-c++ libcurl-devel cyrus-sasl-devel libxml2-devel mysql-community-client mysql-community-devel
 - sudo yum -y install bzip2 gcc openssl-devel readline-devel zlib-devel
+
+### dockerをインストール
+
+dockerをインストール centosへのdocker install 公式
+docker composeのインストール
+```
+$ sudo mkdir -p /usr/local/lib/docker/cli-plugins
+$ sudo curl -SL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
+$ sudo chmod a+x /usr/local/lib/docker/cli-plugins/docker-compose
+
+バージョン確認
+$ docker compose version
+Docker Compose version v2.16.0
+```
+
