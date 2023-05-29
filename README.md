@@ -26,3 +26,4 @@
 - ディスクサイズの確認(df -h)
 - 各種パッケージのアップデート(yum list updates, yum update)
 - パッケージアップデートを終えたら念のためrebootしておく
+- yum install gcc-c++ libcurl-devel cyrus-sasl-devel libxml2-devel mysql-community-client mysql-community-devel
