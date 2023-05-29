@@ -32,6 +32,7 @@
 ### dockerをインストール
 
 dockerをインストール https://docs.docker.com/engine/install/centos/
+
 docker composeのインストール
 ```
 $ sudo mkdir -p /usr/local/lib/docker/cli-plugins
