@@ -45,3 +45,6 @@ Docker Compose version v2.16.0
 ```
 ### Rocky8へRustをInstall
 https://www.atlantic.net/vps-hosting/how-to-install-rust-programming-language-on-rocky-linux-8/
+
+### Rust コーディング環境構築@VSCode
+https://zenn.dev/23prime/articles/74cda5a096a3b3
