@@ -10,6 +10,8 @@
 - asdf
 - go
 - ruby
+- rust
+- nodejs
 - kubectl
 - kube-ps1
 - kubectx
