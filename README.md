@@ -12,9 +12,33 @@
 - ruby
 - rust
 - nodejs
+- yarn
 - kubectl
 - kube-ps1
 - kubectx
+
+### Current addf list
+```
+❯ asdf list
+golang
+  1.18.1
+  1.18.2
+ *1.20.4
+kubectl
+  1.23.6
+ *1.27.2
+nodejs
+ *20.3.1
+ruby
+  2.5.3
+  2.6.8
+  2.7.6
+ *3.1.2
+rust
+ *1.70.0
+yarn
+ *1.22.19
+ ```
 
 ### 仮想マシンへの設定
 - 自分用のユーザー作成とSSHの設定(useradd -m your_account_name, passwd your_account_password, ~/.ssh/authorized_keysの作成)
