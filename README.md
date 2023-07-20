@@ -13,10 +13,10 @@
 - docker
 - docker-compose
 - dive
-- asdf
 - kubectl
 - kube-ps1
 - kubectx
+- colima
 
 ### Current addf list
 ```
@@ -27,7 +27,8 @@ golang
  *1.20.4
 kubectl
   1.23.6
- *1.27.2
+  1.27.2
+ *1.27.3
 nodejs
  *20.3.1
 ruby
@@ -39,7 +40,7 @@ rust
  *1.70.0
 yarn
  *1.22.19
- ```
+```
 
 ### 仮想マシンへの設定
 - 自分用のユーザー作成とSSHの設定(useradd -m your_account_name, passwd your_account_password, ~/.ssh/authorized_keysの作成)
