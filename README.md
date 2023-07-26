@@ -18,7 +18,7 @@
 - kubectx
 - colima
 
-### Current addf list
+### Current asdf list
 ```
 ❯ asdf list
 golang
