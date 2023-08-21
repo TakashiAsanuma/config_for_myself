@@ -27,7 +27,7 @@ brew "gnupg"
 brew "go"
 brew "kube-ps1"
 brew "kubectx"
-brew "mysql", restart_service: true
+brew "mysql"
 brew "neovim"
 brew "postgresql@15"
 brew "python@3.10"
