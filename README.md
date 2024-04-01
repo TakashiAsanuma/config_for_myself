@@ -5,44 +5,33 @@
 - git
 - wget
 - asdf
-- go
-- ruby
-- rust
-- nodejs
-- yarn
 - docker
 - docker-compose
 - dive
-- kubectl
 - kube-ps1
 - kubectx
 - colima
+- supabase
 
 ### Current asdf list
 ```
 ❯ asdf list
 golang
   1.20.6
-  1.21.2
- *1.21.5
+  1.21.5
+ *1.22.1
 kubectl
-  1.27.4
-  1.28.2
   1.28.4
- *1.29.0
+ *1.29.3
 nodejs
-  20.9.0
-  21.1.0
-  21.4.0
- *21.5.0
+ *18.20.0
+  21.7.1
 ruby
   3.1.2
   3.2.2
  *3.3.0
 rust
-  1.72.0
-  1.73.0
- *1.74.1
+ *1.77.1
 ```
 
 ### 仮想マシンへの設定
