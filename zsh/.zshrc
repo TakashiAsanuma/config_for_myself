@@ -61,7 +61,7 @@ bindkey "^S" history-incremental-search-forward
 which nvim > /dev/null && alias vim='nvim'
 
 # asdf
-. /usr/local/opt/asdf/libexec/asdf.sh
+. opt/homebrew/opt/asdf/asdf.sh
 [[ /Users/asanumatakashi/.asdf/shims/kubectl ]] && source <(kubectl completion zsh)
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -U compinit
